@@ -726,10 +726,8 @@ int LengthWithNoHead(LinkList L){
 //    return 0;
 //}
 
-
-
 //2.3.3_双链表
-
+//~~~~~
 
 
 
