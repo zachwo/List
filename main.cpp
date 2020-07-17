@@ -707,25 +707,28 @@ int LengthWithNoHead(LinkList L){
 //    return 0;
 //}
 //头插法建立不带头结点的单链表：直接实现版
-int main(){
-    LinkList L;
-    L = NULL;
+//int main(){
+//    LinkList L;
+//    L = NULL;
+//
+//    for (int i = 0; i <10 ; ++i) {
+//        LNode* s = (LNode*)malloc(sizeof(LNode));
+//        s ->data = random(100);
+//        s->next = L;
+//        L = s;
+//    }
+//    LNode *q = L;
+//    while (q!=NULL){
+//        cout << q->data << " ";
+//        q = q->next;
+//    }
+//    cout << endl;
+//    return 0;
+//}
 
-    for (int i = 0; i <10 ; ++i) {
-        LNode* s = (LNode*)malloc(sizeof(LNode));
-        s ->data = random(100);
-        s->next = L;
-        L = s;
-    }
-    LNode *q = L;
-    while (q!=NULL){
-        cout << q->data << " ";
-        q = q->next;
-    }
-    cout << endl;
-    return 0;
-}
 
+
+//2.3.3_双链表
 
 
 
