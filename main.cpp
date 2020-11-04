@@ -597,10 +597,10 @@ int LengthWithNoHead(LinkList L){
 //int main(){
 //    LinkList L;
 //    InitListWithHead(L);
-//    int length = 0;
+//    int length = 0; // 用length记录单链表当前的长度
 //    while(length<10){
-//        ListInsertWithHeadByOrder(L,length+1,random(100)) ;
-//        length++;
+//        ListInsertWithHeadByOrder(L,length+1,random(100)) ;//在length+1的位置插入一个元素
+//        length++; // 更新单链表当前的长度
 //    }
 //    LNode *p = L->next;
 //    while (p!=NULL){
