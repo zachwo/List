@@ -14,8 +14,8 @@ using namespace std;
 //void InitList(SqList &L){
 //    for (int i = 0; i < MaxSize; ++i) {
 //        L.data[i] = 0;//避免出现脏数据
-//        L.length = 0;
 //    }
+//    L.length = 0;
 //}
 //
 //int main() {
